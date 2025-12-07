@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@font-face {
+	font-family: 'Biryani';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani'),
+		url('/fonts/Biryani-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Biryani ExtraLight';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani ExtraLight'),
+		url('/fonts/Biryani-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Biryani Light';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani Light'),
+		url('/fonts/Biryani-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Biryani SemiBold';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani SemiBold'),
+		url('/fonts/Biryani-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Biryani Bold';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani Bold'),
+		url('/fonts/Biryani-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Biryani ExtraBold';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani ExtraBold'),
+		url('/fonts/Biryani-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Biryani Black';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Biryani Black'),
+		url('/fonts/Biryani-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'The Nautigal';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('The Nautigal'),
+		url('/fonts/TheNautigal-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'The Nautigal Bold';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('The Nautigal Bold'),
+		url('/fonts/TheNautigal-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Tenor Sans';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Tenor Sans'),
+		url('/fonts/TenorSans-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Forum';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Forum'),
+		url('/fonts/Forum-Regular.woff') format('woff');
+}
