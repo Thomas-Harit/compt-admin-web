@@ -1,4 +1,6 @@
 <script lang="ts">
+    import mailIcon from '$lib/assets/icons/mail.svg';
+    import sendIcon from '$lib/assets/icons/send.svg';
   let nom = '';
   let prenom = '';
   let email = '';
@@ -12,7 +14,7 @@
   }
 </script>
 
-<section class="w-full py-16 bg-white">
+<section class="w-full py-16 bg-white" id="contact">
   <h2 class="text-3xl md:text-4xl text-center mb-12 font-['Tenor Sans']">Contact</h2>
 
   <form on:submit|preventDefault={handleSubmit} class="max-w-3xl mx-auto flex flex-col gap-6 px-4 md:px-0">
@@ -35,7 +37,7 @@
 
     <!-- Email -->
 <div class="flex items-center border border-black p-1">
-    <img src="/icons/mail.svg" alt="Email" class="h-6 w-6 mr-1 ml-3" />
+    <img src={mailIcon} alt="Email" class="h-6 w-6 mr-1 ml-3" />
   <input 
     type="email" 
     placeholder="Adresse email" 
@@ -72,7 +74,7 @@
       type="submit" 
       class="flex items-center justify-center gap-2 border hover:bg-gray-100 p-3 text-black transition duration-200"
     >
-        <img src="/icons/send.svg" alt="Envoyer" class="h-5 w-5" />
+        <img src={sendIcon} alt="Envoyer" class="h-5 w-5" />
         <span>Envoyer</span>
     </button>
 

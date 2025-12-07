@@ -1,12 +1,13 @@
-<!-- Intro.svelte -->
 <script lang="ts">
-  import image1 from '$lib/assets/image 1.png';
+  import introImage from '$lib/assets/image 1.png';
+  // No script logic needed for this component
 </script>
 
-<section class="relative h-screen w-full overflow-hidden">
+<!-- Intro.svelte -->
+<section class="relative h-screen w-full overflow-hidden" id="intro">
   <!-- Background image -->
   <img
-    src={image1}
+    src={introImage}
     alt="intro"
     class="absolute inset-0 w-full h-full object-cover"
   />

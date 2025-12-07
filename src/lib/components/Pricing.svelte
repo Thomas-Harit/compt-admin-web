@@ -28,7 +28,7 @@
   ];
 </script>
 
-<section class="w-full py-16 bg-[#F5EBE0]">
+<section class="w-full py-16 bg-[#F5EBE0]" id="pricing">
   <h2 class="text-3xl md:text-4xl text-center mb-12 font-['Tenor Sans']">Tarifs</h2>
   
   <div class="flex flex-col md:flex-row justify-center items-stretch gap-8 px-4 md:px-10">
